@@ -19,9 +19,7 @@ const compareTwoStrings = (firstStr: string, secondStr: string) => {
     const matches: string[] = [];
 
     [...firstStr].forEach((firstStrChar) => {
-        if (secondStr.includes(firstStrChar)) {
-            matches.push(firstStrChar);
-        }
+        if (secondStr.includes(firstStrChar)) matches.push(firstStrChar);
     });
 
     cleanedUpMatches.push(...new Set(matches));

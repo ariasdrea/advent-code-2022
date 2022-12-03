@@ -22,7 +22,6 @@ const cleanUpData = (rucksacks: string[]) => {
     });
 
     const cleanedUpArr: string[] = [];
-
     repeatedChars.forEach((arr) => cleanedUpArr.push(...new Set(arr)));
 
     return cleanedUpArr;
