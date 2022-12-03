@@ -46,7 +46,7 @@ const calculateScore = (opp: Opponent, me: Me) => {
         (oppChoice === "Scissors" && myChoice === "Paper")
     ) {
         console.log("i lost 🥲");
-        count += 0 + score;
+        count += score;
     }
 
     if (
