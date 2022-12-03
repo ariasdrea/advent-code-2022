@@ -39,7 +39,7 @@ Find the item type that appears in both compartments of each rucksack.
  **What is the sum of the priorities of those item types?**
 
 
-[Puzzle Input.](https://github.com/ariasdrea/advent-code-2022/blob/main/3-rucksack-reorganization/rucksack.txt)
+**[Puzzle Input.](https://github.com/ariasdrea/advent-code-2022/blob/main/3-rucksack-reorganization/rucksack.txt)**
 
 
 #### Part 2
