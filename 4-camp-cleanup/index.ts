@@ -29,6 +29,7 @@ const findOverlap = (data: RangeAssignments) => {
     data.forEach((assignments: [number[], number[]]) => {
         const [firstAssignments, secondAssignments] = assignments;
 
+        // For Pt 2, just change 'every' to utilise the 'some' function.
         if (
             firstAssignments.every((elem) =>
                 secondAssignments.includes(elem)
