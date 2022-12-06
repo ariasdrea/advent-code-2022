@@ -33,6 +33,7 @@ Here are a few more examples:
   
 **`How many characters need to be processed before the first start-of-packet marker is detected?`**
 
+**[Puzzle Input.](https://github.com/ariasdrea/advent-code-2022/blob/main/6-tuning-trouble/characters.txt)**
 
 #### Part 2 
 
