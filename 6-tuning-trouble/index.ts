@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 const input: string = readFileSync(__dirname + "/characters.txt", "utf8");
 
-const findUniqueChars = (input: string, uniqueNum: number) => {
+const findMarkerPos = (input: string, uniqueNum: number) => {
     for (let i = 0; i < input.length; i++) {
         const unit: string = input.slice(i - uniqueNum, i);
         const strIsUnique: boolean = new Set(unit).size == unit.length;
@@ -9,5 +9,5 @@ const findUniqueChars = (input: string, uniqueNum: number) => {
     }
 };
 
-const markerPos = findUniqueChars(input, 14);
+const markerPos = findMarkerPos(input, 14);
 console.log({ markerPos });
